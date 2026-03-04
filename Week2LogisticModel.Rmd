@@ -322,7 +322,7 @@ $$residual_i=-2*(y_i-logit^{-1}(\beta*x_i))$$
 
 ## Deviance
 
-Goodness of fit: deviance of the fitted model with respect to a perfect model <br/><br/>
+Goodness of fit: deviance of the fitted model with respect to a Null (only intercept) model <br/><br/>
 Null deviance: $D=-2*loglik(\beta_0)$ <br/><br/>
 Residual deviance: $D=-2*loglik(\beta*x)$ <br/><br/>
 
